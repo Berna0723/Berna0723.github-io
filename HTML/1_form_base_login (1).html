@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   <form>
+        <label>Valore 1 :</label>
+        <input type="text" id="fname"><br>
+        <label>Valore 2 :</label>
+        <input type="text" id="lname"><br>
+
+        <button id="Somma">Somma</button>
+        <button id="Sottrazione ">Sottrazione</button>
+        <button id="Moltiplicazione">Moltiplicazione</button>
+
+   </form> 
+ 
+   <script>
+        const nome = document.getElementById("fname")  //salvo il valore in una CONST, non posso rischiare il dato dato in input dall'utente
+        const passwd = document.getElementById("lname")
+
+        const registra = document.getElementById("pulsante_registra")
+        let utentegiusto=" Andrea"
+        let passwdgiusta="Berna2007"
+        
+
+        Somma.addEventListener("click", function(e) {
+            console.log(Somma);  //stampa l'html di riferimento
+            console.log(Somma.value); //stampa il valore
+
+            console.log(typeof nome.value); //per vedere il tipo
+
+
+            sottrazione.addEventListener("click", function(e) {
+            console.log(nome);  //stampa l'html di riferimento
+            console.log(nome.value); //stampa il valore
+            console.log(typeof nome.value); //per vedere il tipo
+
+            Moltiplicazione.addEventListener("click", function(e) {
+            console.log(nome);  //stampa l'html di riferimento
+            console.log(nome.value); //stampa il valore
+            console.log(typeof nome.value); //per vedere il tipo
+
+        
+
+            //Stampare una stringa
+
+   </script>   
+
+</body>
+</html>
+
+

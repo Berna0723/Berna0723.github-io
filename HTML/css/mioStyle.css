@@ -1,0 +1,89 @@
+header {
+color: white ;
+text-align: center;
+background-color: white;
+
+
+
+}
+#css{
+   background-image:  url("../img/sfondo1.jpg");
+   
+}
+nav{
+    text-align:left;
+    display: flex;
+    color: black;
+ }    
+ .tasto{
+    width:25%;
+    border:none;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    text-align: center;
+       p{
+          color: rgb(255, 255, 255);
+          font-size: 20px;
+          font-weight: bold;
+        }
+      } 
+ a:link{
+    text-decoration: none;
+ }
+ 
+ body{
+
+color: black;
+
+background-color: white;
+font-style: italic;
+font-size:  25px ;
+ }
+ 
+  
+ #home{
+   display: flex;
+   margin-top: 2%;
+   align-content: center;
+ }
+ #testo{
+   text-align: left;
+ }
+#immaginiLato{
+   text-align: right;
+
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: center;
+ }
+ 
+ #strumenti{
+   display: flex;
+   width:100%;
+   padding-left: 5%;
+}
+
+
+#elettrica_intermedi{
+   padding-left: 2%;
+
+
+   width: 30%;
+}
+#elettrica_principianti{
+   width: 30%;
+   
+   padding-left: 2%;
+}
+
+#login{
+   text-align: center;
+   margin-top: 10%;
+}
+
